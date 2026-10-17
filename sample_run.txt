@@ -1,0 +1,11 @@
+Round 0: accuracy 83% | hallucination 33.3% | quality 70%
+  -> weakest: hallucination; adding rule: Answer ONLY from the provided context. If it is missing, say you don't know.
+Round 1: accuracy 83% | hallucination 16.7% | quality 70%
+  -> weakest: quality; adding rule: Be concise: one or two direct sentences, no hedging.
+Round 2: accuracy 83% | hallucination 16.7% | quality 100%
+  -> weakest: accuracy; adding rule: Double-check every number and day against the context before answering.
+Round 3: accuracy 100% | hallucination 0.0% | quality 100%
+Targets met.
+
+History saved to examples/sample_run.json
+Final prompt: You are a helpful customer support assistant. Answer ONLY from the provided context. If it is missing, say you don't know. Be concise: one or two direct sentences, no hedging. Double-check every number and day against the context before answering.
